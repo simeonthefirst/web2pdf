@@ -13,8 +13,8 @@ A Python script to crawl a website, convert its pages and subpages into PDF file
 ## Run (on Windows)
 2. create .venv 
     - ```pip install virtualenv```
-    - ```virtualenv venv```
-    - ```source venv/bin/activate```
+    - ```virtualenv .venv```
+    - ```.\.venv\Scripts\activate```
     - ```pip install -r requirements.txt```
 3. Edit ```base_url``` and ```start_url``` in ```main.py```
 4. Execute the script
